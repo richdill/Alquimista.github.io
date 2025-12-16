@@ -760,11 +760,12 @@ Hallucinations, or just plain made up and wrong. But how do you know the differe
 Unfortunately asking the LLM to show its work like a proof, or references like an author does not work today.
 Tech experts are starting to doubt that ChatGPT and A.I. 'hallucinations' will ever go away: 'This isn’t fixable'
 There are limits to what computers can do, now an in the foreseeable future
-“This “decision problem” was defined as giving a (mathematical) statement to an algorithm and to have that algorithm return a decision about whether that statement was true or not.
-This was a big deal at the time; mathematicians would have loved to prove things automatically.
-And then along came Alonzo Church and Alan Turing and proved that solving the Entscheidungsproblem is impossible.”
 
-What Computers Cannot Do The Consequences of Turing-Completeness Yzena, LLC.pdf What Computers Cannot Do The Consequences of Turing-Completeness Yzena, LLC.pdf
+“This “decision problem” was defined as giving a (mathematical) statement to an algorithm and to have that algorithm return a decision about whether that statement was true or not.
+
+This was a big deal at the time; mathematicians would have loved to prove things automatically. 
+
+And then along came Alonzo Church and Alan Turing and proved that solving the Entscheidungs problem is impossible.”
 
 The Octopus Test for Large Language Model AIs https://kottke.org/23/03/the-octopus-test-for-large-language-model-ais
 
