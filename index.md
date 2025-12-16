@@ -851,41 +851,63 @@ communication at the basic construct level of danger, flee, help, fly this way i
 introspect. It starts there and evolves. The evolution of consciousness was an interesting research project when I was a kid, it was a natural progression after my studies of religion and
 magic. Consciousness is not a singular state, it has evolved over time as we have grown as a species, well in some of us anyway.
 APA PsycNet
+
 AI/ML chips or how ASICs will/are replacing CPUs and GPUs
+
 Due to the intense compute requirements of AI models, new chips have been designed to optimize both training and querying models. CISC, RISC and even Vector based GPUs were
 not designed to handle the kind of compute requirements to build ML models.
+
 It all starts with the chips
+
 https://towardsdatascience.com/a-first-look-at-aws-trainium-1e0605071970
+
 https://itnext.io/a-first-look-at-aws-inferentia-b9672e8f8b8f
+
 here is the SDK
-NeuronCore-v2 Architecture — AWS Neuron Documentation
+
+NeuronCore-v2 Architecture — AWS Neuron Documentation https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/arch/neuron-hardware/neuron-core-v2.html#neuroncores-v2-arch
+
 This is an excellent hight level description of the evolution of chip architecture by task
-AWS Inferentia Machine Learning Processor
+
+AWS Inferentia Machine Learning Processor https://perspectives.mvdirona.com/2018/11/aws-inferentia-machine-learning-processor/
+
 Here are some ways GPUs are being used today
+
 NVIDIA Ampere GPU architecture introduced the third generation of Tensor Cores, with the new TensorFloat32 (TF32) mode for accelerating FP32 convolutions and matrix
 multiplications.
-Accelerating AI Training with NVIDIA TF32 Tensor Cores | NVIDIA Technical Blog
-Custom built chips for training and querying LLMs from Amazon use a second generation chip architecture that has different cores for different types of processings. When working with
-these kinds of models the common thread to all designs is GPSIMD. The GPSIMD engine is a general-purpose Single Instruction Multiple Data (SIMD) engine designed for running and
-accelerating CustomOps.
+
+Accelerating AI Training with NVIDIA TF32 Tensor Cores | NVIDIA Technical Blog https://developer.nvidia.com/blog/accelerating-ai-training-with-tf32-tensor-cores/
+
+Custom built chips for training and querying LLMs from Amazon use a second generation chip architecture that has different cores for different types of processings. When working with these kinds of models the common thread to all designs is GPSIMD. The GPSIMD engine is a general-purpose Single Instruction Multiple Data (SIMD) engine designed for running and accelerating CustomOps.
+
 this is a good overview that has links for anyone who wants to go deeper.
-Achieve high performance with lowest cost for generative AI inference using AWS Inferentia2 and AWS Trainium on Amazon SageMaker | Amazon Web Services
+
+Achieve high performance with lowest cost for generative AI inference using AWS Inferentia2 and AWS Trainium on Amazon SageMaker | Amazon Web Services https://aws.amazon.com/blogs/machine-learning/achieve-high-performance-with-lowest-cost-for-generative-ai-inference-using-aws-inferentia2-and-aws-trainium-on-amazon-sagemaker/
+
 AWS Neuron is the SDK used to run deep learning workloads on AWS Inferentia and AWS Trainium based instances. It supports customers in their end-to-end ML development
 lifecycle to build new models, train and optimize these models, and then deploy them for production.
-What’s New — AWS Neuron Documentation
+
+What’s New — AWS Neuron Documentation https://awsdocs-neuron.readthedocs-hosted.com/en/latest/release-notes/index.html#latest-neuron-release
+
 Can you use quantum computers to train large language models? Not yet…
+
 Yes, quantum computers have the potential to help train large language models, but the technology is still in early stages of development. Here are a few ways quantum computers
 could assist:
+
 Faster training: Quantum computers can perform certain calculations exponentially faster than classical computers. This speedup could significantly reduce the time needed to train
 large neural network models with many parameters.
+
 Larger capacity models: Quantum computers may allow training larger models that exceed the memory limits of classical supercomputers, potentially improving performance. The
 quantum speedups can help scale model size.
-Efficient optimization: Quantum optimization algorithms like quantum annealing could potentially find superior solutions for adjusting model weights during training. This could lead to
-better model performance.
+
+Efficient optimization: Quantum optimization algorithms like quantum annealing could potentially find superior solutions for adjusting model weights during training. This could lead to better model performance.
+
 Quantum neural networks: Quantum machine learning models that use quantum circuits rather than classical neural networks may offer advantages for natural language
 processing. However, these are still early in research.
+
 Quantum simulation: Quantum computers may simulate linguistic datasets and social networks for generating training data more efficiently. This could be useful for self-supervised
 learning approaches.
+
 However, many technical challenges remain in developing quantum machine learning, including noise in qubits, interfacing with classical computers, and algorithm design. Practical
 quantum advantages for training language models may still be years away. But quantum computing is a promising long-term approach for advancing AI.
 
