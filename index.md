@@ -763,74 +763,131 @@ There are limits to what computers can do, now an in the foreseeable future
 “This “decision problem” was defined as giving a (mathematical) statement to an algorithm and to have that algorithm return a decision about whether that statement was true or not.
 This was a big deal at the time; mathematicians would have loved to prove things automatically.
 And then along came Alonzo Church and Alan Turing and proved that solving the Entscheidungsproblem is impossible.”
-What Computers Cannot Do The Consequences of Turing-Completeness Yzena, LLC.pdf
-The Octopus Test for Large Language Model AIs
+
+What Computers Cannot Do The Consequences of Turing-Completeness Yzena, LLC.pdf What Computers Cannot Do The Consequences of Turing-Completeness Yzena, LLC.pdf
+
+The Octopus Test for Large Language Model AIs https://kottke.org/23/03/the-octopus-test-for-large-language-model-ais
+
 This is the most useful example of the current limits of how we are doing syntax and semantics. The next generation of model AI architecture will be a hybrid model, not a “pure
 mathematical expression”, but more like an algorithm, IMHO.
+
 The Octopus Test for Large Language Model AIs
+
 Like Emily, I tend to approach LLMs as a mathematical model of language that has known limitations. And the current approaches have their limits. There is a dimension of language
 current models are unable to deal with. I did study diachronic linguistics and signal processing in high school and university and also treasure the Cambridge Grammar of the English
 Language and the OED. From thought to speech does not just happen.
-“Please do not conflate word form and meaning. Mind your own credulity. These are Bender’s rallying cries. The octopus paper is a fable for our time. The big question underlying it is
-not about tech. It’s about us. How are we going to handle ourselves around these machines?”
+
+“Please do not conflate word form and meaning. Mind your own credulity. These are Bender’s rallying cries. The octopus paper is a fable for our time. The big question underlying it is not about tech. It’s about us. How are we going to handle ourselves around these machines?”
+
 The dude at Stanford is wrong, sorry. Math alone will not save you. Or a new branch of math is required?
-You Are Not a Parrot This is a great article on multiple levels
+
+You Are Not a Parrot https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html  This is a great article on multiple levels 
+
 Having a sense of humor is one of the signs of intelligence. “Bender remains particularly fond of an alternative name for AI proposed by a former member of the Italian Parliament:
 “Systematic Approaches to Learning Algorithms and Machine Inferences.” Then people would be out here asking, “Is this SALAMI intelligent? Can this SALAMI write a novel? Does this
 SALAMI deserve human rights?”
+
 For some background
+
 Here is a brief overview of obtuse math modeling of language:
+
 Obtuse math models try to capture complex linguistic phenomena using mathematical frameworks that are not always well-suited to the task. This can make the models overly
 complex, hard to interpret, and limited in their applicability.
+
 For example, some obtuse math models might try to map human language onto formal logic systems or use obscure mathematical constructs like tensor calculus. While these may
 theoretically represent some linguistic aspects, they are often impractical for real NLP tasks.
+
 A hallmark of obtuse models is the use of math that does not provide clear intuitive insights into the linguistic phenomena being studied. The math obfuscates more than it
 elucidates.
+
 These models tend to be very abstract and detached from the actual use and purpose of language. They focus on arcane theoretical formalisms rather than understanding
 pragmatics, semantics, and the cognitive processes behind language.
+
 Consequently, obtuse math models may publish well theoretically but fail at practical NLP problems. They are judged more on mathematical sophistication than meaningful results.
+
 In summary, obtuse mathematical modeling of language utilizes complex formalisms that lack interpretability and are misaligned with the true nature of human language. Simpler,
 more insightful models focused on linguistic meaning tend to be more useful in practice.
+
 non binary languages I have used/researched/forgotten…
+
 American English
+
 British
+
 Australian
+
 Canadian
+
 Middle English
+
 Anglo-Saxon
+
 Celtic
+
 Irish
+
 Scottish Gaelic
+
 Parisian French
+
 Quebecois
+
 Anglo-Norman
+
 Spanish
+
 Porto Rican
+
 Mexican
+
 Columbian
+
 Brazilian
+
 Latin
+
 High German
+
 Old German
+
 Russian
+
 Norsk
+
 Mandarin
+
 Cantonese
+
 Korean
+
 Japanese
+
 Thai
+
 Malay
+
 Hebrew
+
 Yiddish
+
 Aramaic
+
 Arabic
+
 Egyptian
+
 Greek
+
 Coptic
+
 Sanskrit
+
 Tibetic
+
 Universal Phonetic Alphabit
+
 Universal Phonetic Language
+
 International Radiotelephony Spelling Alphabet
 
 There are several reasons I have learned so many different languages. My studies of religion, magic, history, and later linguistics exposed me to many different languages. I read
