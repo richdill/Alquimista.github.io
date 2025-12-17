@@ -1,7 +1,9 @@
 ---
 Welcome to my site
 ---
-This page represents almost 10 years of AI and machine learning research, experience and observations. And maybe a few opinions. I started this page about five years ago as an internal resource at Snaplogic to share my learning with others. This version has been sanitized for public consumption. It started off focusing on the transition from CloudOpps to MLOps, but quickly expanded into a wide range of topics. It is organized into content sections, research papers, position and white papers, reference links, and reference architectures. I also include some future references and related topics.
+This page represents almost 10 years of AI and machine learning research, experience and observations. And maybe a few opinions. I started this page about five years ago as an internal resource at Snaplogic to share my learning with others. This version has been sanitized for public consumption. It started off focusing on the transition from CloudOps to MLOps, but quickly expanded into a wide range of topics. It is organized into content sections, research papers, position and white papers, reference links, and reference architectures. I also include some future references and related topics. 
+
+A simple way to describe Large Language Models, a.k.a., LLMs, “Statistical algebra”.
 
 About me
 
@@ -10,6 +12,8 @@ A software professional with experience cutting broadly across multiple areas of
 A simple way to describe me: the mind of a scientist, the heart of an explorer and the soul of an artist.
 
 Topics covered
+
+Moving from CloudOps to MLOps
 
 MCP vs A2A
 
@@ -35,7 +39,9 @@ AI/ML chips or how ASICs will/are replacing CPUs and GPUs
 
 Can you use quantum computers to train large language models? Not yet…
 
-A simple way to describe Large Language Models, a.k.a., LLMs, “Statistical algebra”
+95% of this page is written by me. In the last year, I've started to use LLM deep research to assist by research. I note any place on the page where the information is machine generated. I vet and confirm all facts and summaries before publishing.
+
+Moving from CloudOps to MLOps
 
 Here is an Amazon blog on putting AI into production
 
