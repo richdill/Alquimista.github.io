@@ -238,6 +238,7 @@ AWS microsite on generative AI
 success stories and real-world use cases to deep-dives from our esteemed G/SI and BCAP partners—all aimed at empowering you to reshape your industry and drive innovation.
 Our partners have been instrumental in advancing Gen AI, and their thought leadership is on full display in these resources. Through their experiences, you can gain valuable
 perspectives to help you form your own Gen AI strategy and fuel your innovation roadmap.”
+
 Amazon Web Services (AWS) - Cloud Computing Services https://pages.awscloud.com/GLOBAL-AWS-Generative-AI-Empowering-the-Future-Together-with-GSI_BCAP-Partners-2023.html?trk=b6adfde1-875b-45fe-99d5-778f2b06fe1f&sc_channel=em
 
 Training content
@@ -319,6 +320,7 @@ So in essence, when referring to Claude as an "agent", it means leveraging the L
 execution within a defined system or application.
 
 Citations:
+
 Introduction to LLM Agents | NVIDIA Technical Blog: https://developer.nvidia.com/blog/introduction-to-llm-agents/
 Building a Better AI Agent with Claude - Loka: https://www.loka.com/blog/building-a-better-ai-agent-with-claude
 Agent calling with followup criteria Anthropic -> Agents · langchain-ai langchain · Discussion #21896: https://github.com/langchain-ai/langchain/discussions/21896
@@ -339,7 +341,9 @@ Based on the search results provided, here's what "agent" means in the context o
 5. Context Management: The agent can pull context as needed, deciding what information it requires to complete a task and then requesting that information.
 6. Bet on Future Reliability: OpenAI is betting that this agent architecture, while currently not reliable enough for serious applications, will improve over time and become more dependable for complex tasks.
 It's important to note that OpenAI's use of "agent" differs from some other implementations in the field, which may use more structured approaches like complex chains or state machines. OpenAI's agent architecture aims for more flexibility and autonomy in task completion.
+
 Citations:
+
 OpenAI's Bet on a Cognitive Architecture: https://blog.langchain.dev/openais-bet-on-a-cognitive-architecture/
 What Are AI Agents? | IBM: https://www.ibm.com/think/topics/ai-agents
 What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
@@ -363,7 +367,9 @@ Here are the key ways agents in LLMs differ from traditional AI agents:
 
 In essence, OpenAI's LLM-based agents represent a shift towards more flexible, knowledge-driven, and adaptable AI systems compared to traditional, narrowly-focused AI agents.
 However, it's worth noting that this approach is still evolving and may have limitations in terms of reliability for critical applications at present.
+
 Citations:
+
 An In-depth Survey of Large Language Model-based Artificial Intelligence Agents: https://arxiv.org/html/2309.14365
 What is LLM Agent? Ultimate Guide to LLM Agent [With Technical Breakdown]: https://www.ionio.ai/blog/what-is-llm-agent-ultimate-guide-to-llm-agent-with-technical-breakdown
 Unveiling the Key Differences between LLM and Generative AI: https://convin.ai/blog/llm-vs-generative-ai-differences
@@ -393,6 +399,7 @@ development, likely to become more prominent between 2025-2027. Currently, Googl
 but they are clearly moving in the direction of more advanced agentic systems.
 
 Citations:
+
 Google & Andrew Ng on Agentic AI: https://www.agentico.ai/post/google-andrew-ng-on-agentic-ai
 Google Goes All-In on AI Agents at Google Cloud Next: https://www.marketingaiinstitute.com/blog/google-cloud-next-ai-agents
 Agent Assist: v
@@ -444,6 +451,7 @@ As agentic AI continues to evolve, its applications are expanding across more in
 technology's ability to autonomously handle complex tasks and adapt to changing circumstances makes it a valuable asset in many sectors.”
 
 Citations:
+
 https://www.ssonetwork.com/intelligent-automation/articles/what-is-agentic-ai
 How agentic AI is driving the next evolution of enterprise AI: https://www.moveworks.com/us/en/resources/blog/agentic-ai-the-next-evolution-of-enterprise-ai
 https://zhukov.live/what-is-agentic-ai-understanding-agentic-ai-5f011521bc08?gi=a12f45e44d2e
@@ -459,38 +467,54 @@ Expanding LLM Applications: From RAG To Agentic Systems: https://www.mongodb.com
 Research papers
 
 These are research papers, not to be confused with position or white papers. They reference some of the key design and architectural components of building machine learning models of various types. I have not limited these research papers to just large language models. Other models are covered.
+
 Here is the first paper on using math to model biological neural activity. It was published in 1943
-A logical calculus of the ideas immanent in nervous activity.pdf
+
+A logical calculus of the ideas immanent in nervous activity.pdf: https://www.cs.cmu.edu/~epxing/Class/10715/reading/McCulloch.and.Pitts.pdf
+
 “Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of
 every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain
 conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense
 that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various
 applications of the calculus are discussed.”
+
 There are decades of research between this paper and what we using today, but the core calculus is the same. Just not at a scale they could not imagine in 1943.
+
 Attention Is All You Need
+
 This is “the” paper on the core mechanism of GPT based architecture
+
 This is what it means:” The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best
 performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention
 mechanisms, dispensing with recurrence and convolutions entirely.”
+
 please reach out to me for translation into english…
-attention is you n
-eed.pdf
-28 Apr 2023, 03:45 PM
+
+attention is you need.pdf: https://arxiv.org/abs/1706.03762
+
 What is a transformer?
-A Mathematical Framework for Transformer Circuits
+
+A Mathematical Framework for Transformer Circuits: https://transformer-circuits.pub/2021/framework/index.html
+
 “In this paper, we attempt to take initial, very preliminary steps towards reverse-engineering transformers. Given the incredible complexity and size of modern language models, we
 have found it most fruitful to start with the simplest possible models and work our way up from there. Our aim is to discover simple algorithmic patterns, motifs, or frameworks that can
 subsequently be applied to larger and more complex models. “
+
 It is one of the steps used to convert language into a mathematical model
+
 “A transformer starts with a token embedding, followed by a series of “residual blocks”, and finally a token unembedding. Each residual block consists of an attention layer, followed by
 an MLP layer. Both the attention and MLP layers each “read” their input from the residual stream (by performing a linear projection), and then “write” their result to the residual stream
 by adding a linear projection back in. Each attention layer consists of multiple heads, which operate in parallel.”
+
 The creation of the Attention White Paper
+
 While not as comprehensive as “The Soul of a New Machine”, it provides valuable insights into some of the key features of transformers. How it was developed and it how it works.
 “Approaching its seventh anniversary, the “Attention” paper has attained legendary status. The authors started with a thriving and improving technology—a variety of AI called neural
 networks—and made it into something else: a digital system so powerful that its output can feel like the product of an alien intelligence. Called transformers, this architecture is the not-
 so-secret sauce behind all those mind-blowing AI products, including ChatGPT and graphic generators such as Dall-E and Midjourney.”
+
 8 Google Employees Invented Modern AI. Here’s the Inside Story
+
 What is an MLP layer?
 “MLP stands for Multilayer Perceptron, which is a type of artificial neural network. An MLP layer has the following characteristics:
 It is a fully connected layer, meaning each neuron in the layer is connected to all the neurons in the previous layer.
