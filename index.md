@@ -346,6 +346,7 @@ Based on the search results provided, here's what "agent" means in the context o
 4. Tool Usage: OpenAI's agents can call and use various tools (like retrieval or code interpreter) to accomplish tasks. In the case of GPTs, this is done automatically, while for the Assistants API, it may require client-side tool calls.
 5. Context Management: The agent can pull context as needed, deciding what information it requires to complete a task and then requesting that information.
 6. Bet on Future Reliability: OpenAI is betting that this agent architecture, while currently not reliable enough for serious applications, will improve over time and become more dependable for complex tasks.
+
 It's important to note that OpenAI's use of "agent" differs from some other implementations in the field, which may use more structured approaches like complex chains or state machines. OpenAI's agent architecture aims for more flexibility and autonomy in task completion.
 
 Citations:
@@ -413,7 +414,7 @@ Code Agents
 Security Agents
 4. Agent Assist: This is part of Google Cloud's Contact Center AI, which helps deliver AI-powered conversations with human agents. It can recommend responses, provide answersfrom a knowledge base, and transcribe calls in real-time.
 5. Multi-agent collaboration: Google is exploring multi-agent approaches where complex tasks are broken down into subtasks executed by different specialized agents.
-6. 
+
 While these products show Google is investing in agentic AI systems, it's worth noting that some experts, like Paul Roetzer, suggest that fully autonomous AI agents are still a future
 development, likely to become more prominent between 2025-2027. Currently, Google's offerings seem to focus more on assisting human work rather than fully autonomous agents,
 but they are clearly moving in the direction of more advanced agentic systems.
@@ -548,9 +549,10 @@ While not as comprehensive as “The Soul of a New Machine”, it provides valua
 networks—and made it into something else: a digital system so powerful that its output can feel like the product of an alien intelligence. Called transformers, this architecture is the not-
 so-secret sauce behind all those mind-blowing AI products, including ChatGPT and graphic generators such as Dall-E and Midjourney.”
 
-8 Google Employees Invented Modern AI. Here’s the Inside Story
+8 Google Employees Invented Modern AI. Here’s the Inside Story: https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/
 
 What is an MLP layer?
+
 “MLP stands for Multilayer Perceptron, which is a type of artificial neural network. An MLP layer has the following characteristics:
 It is a fully connected layer, meaning each neuron in the layer is connected to all the neurons in the previous layer.
 It applies a nonlinear activation function (like ReLU, sigmoid, etc.) to transform the weighted sum input to each neuron into the neuron's output.
@@ -558,10 +560,14 @@ An MLP model typically has multiple such layers stacked together, allowing it to
 The layers are arranged in a feedforward manner, where information flows from input to output sequentially through the layers without looping back.
 Each layer transforms the representation of the data into a slightly more abstract/higher-level representation.
 Having multiple layers allows the model to learn hierarchical feature representations of the input data.
+
 So in summary, an MLP layer refers to a fully-connected neural network layer that applies a nonlinear activation and helps the model learn abstract representations of the input data
 through multiple stacked layers. MLPs are commonly used for classification and regression predictive modeling tasks.”
+
 LLM-FP4: 4-Bit Floating-Point Quantized Transformers
+
 This is a new paper on quantizing both weights and activations using floating points instead of integers.
+
 “We propose LLM-FP4 for quantizing both weights and activations in large language models(LLMs) down to 4-bit floating-point values, in a post-training manner. Existing post training
 quantization (PTQ) solutions are primarily integer-based and struggle with bit widths below 8 bits. Compared to integer quantization, floating-point (FP) quantization is more flexible and
 can better handle long-tailor bell-shaped distributions, and it has emerged as a default choice in many hardware platforms.”
@@ -569,9 +575,8 @@ can better handle long-tailor bell-shaped distributions, and it has emerged as a
 architectures, including both large language models and BERT model.We also extend our method to vision transformers and observe its robust generalization ability.Our approach
 involves a practical search-based technique which establishes a strong baseline and achieves state-of-the-art results for 6-bit and 8-bit quantization. Furthermore, we address the
 challenge of high inter-channel variance in transformers by proposing pre-shifted exponent bias, which proves highly effective in achieving accurate bit quantization.”
-LLM-FP4-4-BitF…
-ers.pdf
-29 Oct 2023, 10:33 PM
+LLM-FP4-4-BitFers.pdf: https://arxiv.org/abs/2310.16836
+
 Hyena is a challenger to how we build LLMs,
 This is why it is important: anything that can reduce the computational costs is going to be important to making LLMs a profitable product offering.
 “we propose Hyena, a sub-quadratic drop-in replacement for attention constructed by interleaving implicitly parametrized long convolutions and data-controlled gating. In recall and
