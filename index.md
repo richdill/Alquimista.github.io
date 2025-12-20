@@ -564,6 +564,8 @@ Having multiple layers allows the model to learn hierarchical feature representa
 So in summary, an MLP layer refers to a fully-connected neural network layer that applies a nonlinear activation and helps the model learn abstract representations of the input data
 through multiple stacked layers. MLPs are commonly used for classification and regression predictive modeling tasks.”
 
+ Multilayer Perceptron and Neural networks: https://www.academia.edu/52398369/Multilayer_perceptron_and_neural_networks 
+
 LLM-FP4: 4-Bit Floating-Point Quantized Transformers
 
 This is a new paper on quantizing both weights and activations using floating points instead of integers.
@@ -575,34 +577,37 @@ can better handle long-tailor bell-shaped distributions, and it has emerged as a
 architectures, including both large language models and BERT model.We also extend our method to vision transformers and observe its robust generalization ability.Our approach
 involves a practical search-based technique which establishes a strong baseline and achieves state-of-the-art results for 6-bit and 8-bit quantization. Furthermore, we address the
 challenge of high inter-channel variance in transformers by proposing pre-shifted exponent bias, which proves highly effective in achieving accurate bit quantization.”
+
 LLM-FP4-4-BitFers.pdf: https://arxiv.org/abs/2310.16836
 
-Hyena is a challenger to how we build LLMs,
-This is why it is important: anything that can reduce the computational costs is going to be important to making LLMs a profitable product offering.
-“we propose Hyena, a sub-quadratic drop-in replacement for attention constructed by interleaving implicitly parametrized long convolutions and data-controlled gating. In recall and
-reasoning tasks on sequences of thousands to hundreds of thousand softokens, Hyena improves accuracy by more than 50 points over operators relying on state spaces and other
-implicit and explicit methods, matching attention-based models.”
-HyenaHierarch…
-els.pdf
-01 May 2023, 04:29 PM
+Hyena is a challenger to how we build LLMs
+
+This is why it is important: anything that can reduce the computational costs is going to be important to making LLMs a profitable product offering. “we propose Hyena, a sub-quadratic drop-in replacement for attention constructed by interleaving implicitly parametrized long convolutions and data-controlled gating. In recall and reasoning tasks on sequences of thousands to hundreds of thousand softokens, Hyena improves accuracy by more than 50 points over operators relying on state spaces and other implicit and explicit methods, matching attention-based models.”
+
+https://arxiv.org/abs/2302.10866
+
 Leveraging Large Language Models for NLG Evaluation: A Survey
-“This survey aims to provide a thorough overview of leveraging LLMs for NLG evaluation, a burgeoning area that lacks a systematic analysis. We propose a coherent taxonomy for
-organizing existing LLM-based evaluation metrics, offering a structured framework to understand and compare these methods. Our detailed exploration includes critically assessing
-various LLM-based methodologies, as well as comparing their strengths and limitations in evaluating NLG outputs.
-Leveraging Lar…
-vey.pdf
-02 Feb 2024, 04:26 PM
+
+“This survey aims to provide a thorough overview of leveraging LLMs for NLG evaluation, a burgeoning area that lacks a systematic analysis. We propose a coherent taxonomy for organizing existing LLM-based evaluation metrics, offering a structured framework to understand and compare these methods. Our detailed exploration includes critically assessing various LLM-based methodologies, as well as comparing their strengths and limitations in evaluating NLG outputs.
+
+https://arxiv.org/html/2401.07103v1
+
 RAG
+
 Amazon Bedrock now supports Anthropic Claude 3.0
+
 “Its industry-leading 100,000 token context window can securely process extensive amounts of information across all industries, from manufacturing and aerospace to agriculture and
-consumer goods, as well as technical, domain-specific documents for industries such as finance, legal, and healthcare.”
-Amazon and Anthropic announce strategic collaboration to advance generative AI
+consumer goods, as well as technical, domain-specific documents for industries such as finance, legal, and healthcare.” 
+
+Amazon and Anthropic announce strategic collaboration to advance generative AI: https://www.aboutamazon.com/news/company-news/amazon-aws-anthropic-ai
+
+
 Unfortunately, this no longer true. Google announced Gemini support for 1M tokens
-Our next-generation model: Gemini 1.5
-“https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
-“As we roll out the full 1 million token context window, we’re actively working on optimizations to improve latency, reduce computational requirements and enhance the user experience.
-We’re excited for people to try this breakthrough capability, and we share more details on future availability below.”
-It remains to be seen if they have the ability to use them to their advantage.
+
+Our next-generation model: Gemini 1.5 “https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/
+
+“As we roll out the full 1 million token context window, we’re actively working on optimizations to improve latency, reduce computational requirements and enhance the user experience. We’re excited for people to try this breakthrough capability, and we share more details on future availability below.” It remains to be seen if they have the ability to use them to their advantage.
+
 Retrieval Augmented Generation for Knowledge Intensive NLP Tasks
 Regenerative Augmented Generation, a.k.a., RAG, is a new method to improve response fidelity.
 “We explore a general-purpose fine-tuning recipe for retrieval-augmented generation(RAG) — models which combine pre-trained parametric and non-parametric memory for language
