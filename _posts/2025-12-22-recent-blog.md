@@ -47,7 +47,7 @@ Moving from CloudOps to MLOps
 
 Here is an Amazon blog on putting AI into production
 
-FMOps/LLMOps: Operationalize generative AI and differences with MLOps
+FMOps/LLMOps Operationalize generative AI and differences with MLOps
 
 “In this post, we discuss how to operationalize generative AI applications using MLOps principles leading to foundation model operations (FMOps). Furthermore, we deep dive on the most common generative AI use case of text-to-text applications and LLM operations (LLMOps), a subset of FMOps.”
 FMOps/LLMOps: Operationalize generative AI and differences with MLOps | Amazon Web Services
