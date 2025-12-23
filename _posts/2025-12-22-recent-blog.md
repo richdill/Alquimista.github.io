@@ -82,7 +82,7 @@ Context Protocol). These are essentially reusable prompt snippets or multi-step 
 Context Protocol). For example, an MCP server for code analysis might provide a “Refactor this code” prompt template which, when selected, guides the LLM through a predefined
 sequence to analyze and rewrite a snippet. This allows best-practice prompts to be packaged by the server and easily invoked in the client UI (often via explicit user action, like
 selecting a slash-command) (Prompts - Model Context Protocol) (Prompts - Model Context Protocol).
-Interaction Pattern: Using MCP typically looks like this: When an AI session starts, the host’s MCP client establishes connections to one or more servers (for example, a local file
+Interaction Pattern; Using MCP typically looks like this: When an AI session starts, the host’s MCP client establishes connections to one or more servers (for example, a local file
 system server, a Gmail server, and a Slack server). The client will query each server for its offerings – e.g. list available resources, tools, and prompt templates – and incorporate that knowledge into the model’s context or system instructions (Model context protocol (MCP) - OpenAI Agents SDK) (Model context protocol (MCP) - OpenAI Agents SDK). From
 the model’s perspective, it now has an expanded “toolbox” and extra context at its disposal. If the user asks a question that requires external info, the model can decide to invoke
 one of the tools. The host detects that (via the model’s output or a special function call format) and then forwards the request to the appropriate MCP server. The server performs
